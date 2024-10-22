@@ -171,20 +171,5 @@ function turnHoursToMinutes(moviesArray) {
 // BONUS - Iteration 8: Best yearly score average - Best yearly score average
 function bestYearAvg(moviesArray) {
 
-    moviesArray.forEach(eachMovie => {
-
-        if (indexOf(eachMovie.year) > 0) {
-
-            const averageScoreByYear = {
-                year: eachMovie.year,
-                score: eachMovie.reduce((acc, eachScore) => {
-                    return acc + eachScore.score
-                })
-            }
-
-        }
-
-        averageScoreByYear
-    )
 
 }
